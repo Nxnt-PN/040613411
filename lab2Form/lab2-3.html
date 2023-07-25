@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    </style>
+</head>
+<body>
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="no3.2.html" method="get">
+                Username:
+                <input 
+                        type="text" 
+                        pattern="[A-Za-zก-๏0-9]+[\s_-A-Za-zก-๏0-9]+"
+                        minlength="8" 
+                        required><br>
+
+                Password:
+                <input 
+                        type="password" 
+                        pattern="[A-Za-z0-9ก-๏_-.]+" 
+                        minlength="8"
+                        required>
+                <br>
+        
+                กรุณาใส่เลขที่ปรากฎ:<br>1559<br>
+                    <input 
+                        type="text" 
+                        pattern="[1559]{1,4}" 
+                        maxlength="5" 
+                        required>
+                <br>
+        <button type="submit" name="submit" id="submit" value="Login">
+            <img src="Login-png.png" width="30px">
+        </button>
+    </form>
+</body>
+</html>
